@@ -12,7 +12,7 @@ def initialize(name)
 end
 
 def self.save
-  @@all.push(self)
+  @@all << self
 end
 
 

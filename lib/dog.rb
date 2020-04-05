@@ -11,8 +11,8 @@ def initialize(name)
   save
 end
 
-def save(dog)
-  @@all << dog
+def self.save
+  @@all.push(self)
 end
 
 

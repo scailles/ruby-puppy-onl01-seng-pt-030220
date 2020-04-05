@@ -8,7 +8,7 @@ attr_reader :name
 
 def initialize(name)
   @name = name
-  save
+  self.save
 end
 
 def self.save

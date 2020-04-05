@@ -8,10 +8,10 @@ attr_reader :name
 
 def initialize(name)
   @name = name
-  self.save
+  save
 end
 
-def self.save(dog)
+def save(dog)
   @@all << dog
 end
 
